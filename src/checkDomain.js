@@ -1,11 +1,14 @@
+// Define arrays for allowed characters
 const allowedAlphanum = [];
 const allowedSpecial = [];
 
+// Initialize the arrays with false for all ASCII characters
 for (var i = 0; i < 256; i++) {
     allowedAlphanum[i] = false;
     allowedSpecial[i] = false;
 }
 
+// Set the ranges for alphanumeric characters (A-Z, a-z, 0-9)
 for (var i = 65; i <= 90; i++) {
     allowedAlphanum[i] = true;
     allowedSpecial[i] = true;
@@ -21,6 +24,7 @@ for (var i = 48; i <= 57; i++) {
     allowedSpecial[i] = true;
 }
 
+// Set specific special characters (- and _)
 allowedSpecial[45] = true;
 allowedSpecial[95] = true;
 
@@ -67,7 +71,7 @@ function isEmailSpecial(str) {
 function checkDomain(domain) {
     const ret = { error: null, punycode: false }
 
-    // check domain name
+    // Check domain name
     const domainItems = domain.split(".")
     for (var item of domainItems) {
         if (item.length === 0) {
@@ -82,7 +86,7 @@ function checkDomain(domain) {
             return (ret);
         }
 
-        // first and last must be alphanum
+        // Check if the first and last characters are alphanumeric
         const first = isAlphanum(item[0])
         const middle = isEmailSpecial(item)
         const last = isAlphanum(item[item.length - 1])
@@ -92,15 +96,13 @@ function checkDomain(domain) {
             return (ret);
         }
 
-        // check punycode
+        // Check for punycode encoding
         const punyCode = /(--)/
         if (item.match(punyCode))
             ret.punycode = true
     }
 
-
     return (ret)
 }
-
 
 module.exports = checkDomain
