@@ -4,8 +4,8 @@
  "description": "Comprehensive list of TLDs and subdomain registrars",
  "main": "index.js",
  "scripts": {
-  "test": "echo \"Error: no test specified\" && exit 1"
- },
+    "test": "./node_modules/mocha/bin/mocha.js"
+  },
  "repository": {
   "type": "git",
   "url": "git+https://github.com/mykiimike/node-tlds2.git"
@@ -23,5 +23,8 @@
  "bugs": {
   "url": "https://github.com/mykiimike/node-tlds2/issues"
  },
- "homepage": "https://github.com/mykiimike/node-tlds2#readme"
+ "homepage": "https://github.com/mykiimike/node-tlds2#readme",
+ "devDependencies": {
+  "mocha": "^10.2.0"
+ }
 }
