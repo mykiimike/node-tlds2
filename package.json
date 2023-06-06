@@ -1,11 +1,11 @@
 {
  "name": "tlds2",
- "version": "2.2.0",
+ "version": "2.2.1",
  "description": "Comprehensive list of TLDs and subdomain registrars",
  "main": "index.js",
  "scripts": {
-    "test": "./node_modules/mocha/bin/mocha.js"
-  },
+  "test": "./node_modules/mocha/bin/mocha.js"
+ },
  "repository": {
   "type": "git",
   "url": "git+https://github.com/mykiimike/node-tlds2.git"
