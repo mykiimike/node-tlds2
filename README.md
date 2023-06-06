@@ -55,7 +55,7 @@ An object with the following properties:
 #### Example
 
 ```javascript
-const check = require('check');
+const {check} = require("./tlds2")
 
 const result = check('example.com');
 console.log(result);
