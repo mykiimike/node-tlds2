@@ -4,7 +4,7 @@ const top = require("./data/tld-top")
 
 const check = require("./src/check")
 const checkDomain = require("./src/checkDomain")
-const extractDomain = require("./src/extractDomain")
+const checkTLD = require("./src/checkTLD")
 
 module.exports = {
     list,
@@ -12,5 +12,5 @@ module.exports = {
     top,
     check,
     checkDomain,
-    extractDomain
+    checkTLD
 }
