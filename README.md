@@ -2,6 +2,8 @@
 
 tlds2 is an npm module that provides a comprehensive list of top-level domains (TLDs) from [ICANN](https://www.icann.org/resources/pages/tlds-2012-02-25-en). It also includes subdomain and registrar identification for better domain control and parsing.
 
+To access the complete TLD and registrar list, visit this link.
+
 ## Installation
 
 ```sh
