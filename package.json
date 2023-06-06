@@ -1,27 +1,27 @@
 {
-    "name": "tlds2",
-    "version": "2.1.0",
-    "description": "Comprehensive list of TLDs and subdomain registrars",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/mykiimike/node-tlds2.git"
-    },
-    "keywords": [
-        "TLDs",
-        "top-level domains",
-        "subdomains",
-        "registrars",
-        "domain control",
-        "parsing"
-    ],
-    "author": "Michael Vergoz <m.vergoz@protonmail.com>",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/mykiimike/node-tlds2/issues"
-    },
-    "homepage": "https://github.com/mykiimike/node-tlds2#readme"
+ "name": "tlds2",
+ "version": "2.1.1",
+ "description": "Comprehensive list of TLDs and subdomain registrars",
+ "main": "index.js",
+ "scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1"
+ },
+ "repository": {
+  "type": "git",
+  "url": "git+https://github.com/mykiimike/node-tlds2.git"
+ },
+ "keywords": [
+  "TLDs",
+  "top-level domains",
+  "subdomains",
+  "registrars",
+  "domain control",
+  "parsing"
+ ],
+ "author": "Michael Vergoz <m.vergoz@protonmail.com>",
+ "license": "MIT",
+ "bugs": {
+  "url": "https://github.com/mykiimike/node-tlds2/issues"
+ },
+ "homepage": "https://github.com/mykiimike/node-tlds2#readme"
 }
