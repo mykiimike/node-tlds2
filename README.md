@@ -31,3 +31,28 @@ console.log(tlds.list);
 ```
 
 Feel free to explore the full capabilities of the `tlds2` module to enhance your domain management and parsing functionalities.
+
+## Some APIs
+
+### checkDomain()
+
+Checks a domain name for validity.
+
+#### Parameters
+
+- `domain` (string): The domain name to check.
+
+#### Return Value
+
+Returns an object with the following properties:
+
+- `error` (string | null): An error message if the domain is invalid, or `null` if it is valid.
+- `punycode` (boolean): Indicates whether the domain contains punycode encoding.
+
+#### Example Usage
+
+```js
+const {checkDomain} = require("./tlds2")
+const result = checkDomain('example.com');
+console.log(result);
+//=> { error: null, punycode: false }
