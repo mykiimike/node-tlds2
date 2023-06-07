@@ -15,6 +15,12 @@ function checkTLD(fqdn) {
         subDomain: []    // Array of subdomain labels in reverse order.
     };
 
+    if (typeof fqdn !== 'string') {
+        ret.error = 'Invalid FQDN';
+        ret.info  = 'FQDN must be a string';
+        return;
+    }
+
     const labels = fqdn.split(".");
     var cursor = tldHash;
 
