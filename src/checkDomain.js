@@ -71,6 +71,18 @@ function isEmailSpecial(str) {
 function checkDomain(domain) {
     const ret = { error: null, punycode: false }
 
+    if (typeof domain !== 'string') {
+        ret.error = 'Invalid domain';
+        ret.info  = 'Domain must be a string';
+        return;
+    }
+
+    if (domain.length > 320) {
+        ret.error = 'Invalid domain';
+        ret.info = 'Domain is too long';
+        return;
+    }
+
     // Check domain name
     const domainItems = domain.split(".")
     for (var item of domainItems) {
