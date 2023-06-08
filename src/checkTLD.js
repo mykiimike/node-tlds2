@@ -3,12 +3,11 @@ const tldHash = require("../data/tld-hash");
 /**
  * Checks the top-level domain (TLD) and subdomain of a fully qualified domain name (FQDN).
  * @param {string} fqdn - The fully qualified domain name to check.
- * @returns {object} - Returns an object with the following properties: 'error', 'punycode', 'org', 'tld', and 'subDomain'.
+ * @returns {object} - Returns an object with the following properties: 'error', 'org', 'tld', and 'subDomain'.
  */
 function checkTLD(fqdn) {
     const ret = {
         error: null,    // Error message if the TLD/subdomain is invalid, null if valid.
-        punycode: false,    // Indicates whether the TLD/subdomain contains punycode encoding.
         validTLD: false,    // Indicates whether a valid TLD is present.
         org: null,    // Organization/domain part of the FQDN.
         tld: [],    // Array of TLD labels in reverse order.
