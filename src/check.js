@@ -14,6 +14,9 @@ function check(domain) {
     if (cd.error)
         return { ...ret, ...cd };
 
+    // translate punycode
+    ret.punycode = cd.punycode;
+
     // Check the top-level domain (TLD) and subdomain using checkTLD()
     const ct = checkTLD(domain);
 
