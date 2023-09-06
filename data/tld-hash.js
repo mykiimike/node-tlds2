@@ -1095,7 +1095,6 @@ module.exports = {
  "HOST": {},
  "HOSTING": {},
  "HOT": {},
- "HOTELES": {},
  "HOTELS": {},
  "HOTMAIL": {},
  "HOUSE": {},
@@ -2000,7 +1999,6 @@ module.exports = {
  },
  "MUSEUM": {},
  "MUSIC": {},
- "MUTUAL": {},
  "MV": {
   "COM": {}
  },
@@ -2148,7 +2146,6 @@ module.exports = {
   "VGS": {}
  },
  "NOKIA": {},
- "NORTHWESTERNMUTUAL": {},
  "NORTON": {},
  "NOW": {},
  "NOWRUZ": {},
@@ -2258,7 +2255,6 @@ module.exports = {
  "PARTNERS": {},
  "PARTS": {},
  "PARTY": {},
- "PASSAGENS": {},
  "PAY": {},
  "PCCW": {},
  "PE": {
@@ -2964,7 +2960,6 @@ module.exports = {
  "TIAA": {},
  "TICKETS": {},
  "TIENDA": {},
- "TIFFANY": {},
  "TIPS": {},
  "TIRES": {},
  "TIROL": {},
@@ -3291,7 +3286,6 @@ module.exports = {
   "NET": {},
   "ORG": {}
  },
- "VUELOS": {},
  "WALES": {},
  "WALMART": {},
  "WALTER": {},
