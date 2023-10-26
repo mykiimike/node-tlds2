@@ -460,7 +460,6 @@ module.exports = {
  "CBA": {},
  "CBN": {},
  "CBRE": {},
- "CBS": {},
  "CC": {},
  "CD": {
   "COM": {},
@@ -506,7 +505,6 @@ module.exports = {
  "CITI": {},
  "CITIC": {},
  "CITY": {},
- "CITYEATS": {},
  "CK": {
   "BIZ": {},
   "CO": {},
@@ -913,7 +911,6 @@ module.exports = {
  "FRESENIUS": {},
  "FRL": {},
  "FROGANS": {},
- "FRONTDOOR": {},
  "FRONTIER": {},
  "FTR": {},
  "FUJITSU": {},
@@ -2755,7 +2752,6 @@ module.exports = {
  "SHOPPING": {},
  "SHOUJI": {},
  "SHOW": {},
- "SHOWTIME": {},
  "SI": {
   "AE": {},
   "AT": {},
