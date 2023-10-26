@@ -72,30 +72,30 @@ function checkDomain(domain) {
     const ret = { error: null, punycode: false }
 
     if (typeof domain !== 'string') {
-        ret.error = 'Invalid domain';
-        ret.info  = 'Domain must be a string';
-        return;
+        ret.error = 'Invalid domain'
+        ret.info  = 'Domain must be a string'
+        return(ret)
     }
 
     if (domain.length > 320) {
-        ret.error = 'Invalid domain';
-        ret.info = 'Domain is too long';
-        return;
+        ret.error = 'Invalid domain'
+        ret.info = 'Domain is too long'
+        return(ret)
     }
 
     // Check domain name
     const domainItems = domain.split(".")
     for (var item of domainItems) {
         if (item.length === 0) {
-            ret.error = 'Invalid domain';
+            ret.error = 'Invalid domain'
             ret.info = "Zero length label"
-            return (ret);
+            return (ret)
         }
 
         if (item.length > 62) {
             ret.error = 'Invalid domain';
             ret.info = "Label length greater than 62";
-            return (ret);
+            return (ret)
         }
 
         // Check if the first and last characters are alphanumeric
@@ -103,9 +103,9 @@ function checkDomain(domain) {
         const middle = isEmailSpecial(item)
         const last = isAlphanum(item[item.length - 1])
         if (first === false || last === false || middle === false) {
-            ret.error = 'Invalid domain';
-            ret.info = "Invalid label encoding";
-            return (ret);
+            ret.error = 'Invalid domain'
+            ret.info = "Invalid label encoding"
+            return (ret)
         }
 
         // Check for punycode encoding
