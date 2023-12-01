@@ -816,7 +816,6 @@ module.exports = {
   "NET": {},
   "ORG": {}
  },
- "ETISALAT": {},
  "EU": {},
  "EUROVISION": {},
  "EUS": {},
@@ -1706,7 +1705,6 @@ module.exports = {
  "KIA": {},
  "KIDS": {},
  "KIM": {},
- "KINDER": {},
  "KINDLE": {},
  "KITCHEN": {},
  "KIWI": {},
@@ -2618,7 +2616,6 @@ module.exports = {
   "TM": {},
   "WWW": {}
  },
- "ROCHER": {},
  "ROCKS": {},
  "RODEO": {},
  "ROGERS": {},
@@ -3271,7 +3268,6 @@ module.exports = {
   "PRO": {}
  },
  "VODKA": {},
- "VOLKSWAGEN": {},
  "VOLVO": {},
  "VOTE": {},
  "VOTING": {},
@@ -3395,7 +3391,6 @@ module.exports = {
  "XN--4DBRK0CE": {},
  "XN--9DBQ2A": {},
  "XN--MGBCA7DZDO": {},
- "XN--MGBAAKC7DVF": {},
  "XN--MGBA3A3EJT": {},
  "XN--MGBAYH7GPA": {},
  "XN--MGBCPQ6GPA1A": {},
