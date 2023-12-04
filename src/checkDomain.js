@@ -109,7 +109,7 @@ function checkDomain(domain) {
         }
 
         // Check for punycode encoding
-        const punyCode = /(--)/
+        const punyCode = /(xn--)/
         if (item.match(punyCode))
             ret.punycode = true
     }
