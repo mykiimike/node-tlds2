@@ -1016,7 +1016,6 @@ module.exports = [
  "SBI",
  "SBS",
  "SC",
- "SCA",
  "SCB",
  "SCHAEFFLER",
  "SCHMIDT",

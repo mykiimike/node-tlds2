@@ -2699,7 +2699,6 @@ module.exports = {
   "NET": {},
   "ORG": {}
  },
- "SCA": {},
  "SCB": {},
  "SCHAEFFLER": {},
  "SCHMIDT": {},

@@ -2389,7 +2389,6 @@ module.exports = [
  "COM.SC",
  "NET.SC",
  "ORG.SC",
- "SCA",
  "SCB",
  "SCHAEFFLER",
  "SCHMIDT",
