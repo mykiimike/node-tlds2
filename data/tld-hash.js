@@ -320,6 +320,7 @@ module.exports = {
   "DEV": {},
   "ECN": {},
   "ECO": {},
+  "EDU": {},
   "EMP": {},
   "ENF": {},
   "ENG": {},
@@ -338,6 +339,7 @@ module.exports = {
   "G12": {},
   "GEO": {},
   "GGF": {},
+  "GOV": {},
   "GRU": {},
   "IMB": {},
   "IND": {},
@@ -1715,7 +1717,9 @@ module.exports = {
   "TM": {}
  },
  "KN": {
-  "COM": {}
+  "COM": {},
+  "EDU": {},
+  "GOV": {}
  },
  "KOELN": {},
  "KOMATSU": {},
@@ -1928,7 +1932,10 @@ module.exports = {
   "ORG": {}
  },
  "ML": {
-  "COM": {}
+  "COM": {},
+  "INFO": {},
+  "NET": {},
+  "ORG": {}
  },
  "MLB": {},
  "MLS": {},
@@ -2265,6 +2272,8 @@ module.exports = {
  "PF": {
   "ASSO": {},
   "COM": {},
+  "EDU": {},
+  "GOV": {},
   "ORG": {}
  },
  "PFIZER": {},
@@ -2733,8 +2742,7 @@ module.exports = {
   "COM": {},
   "EDU": {},
   "NET": {},
-  "ORG": {},
-  "PER": {}
+  "ORG": {}
  },
  "SH": {},
  "SHANGRILA": {},
@@ -2762,7 +2770,9 @@ module.exports = {
  "SINGLES": {},
  "SITE": {},
  "SJ": {},
- "SK": {},
+ "SK": {
+  "ORG": {}
+ },
  "SKI": {},
  "SKIN": {},
  "SKY": {},
@@ -3065,6 +3075,7 @@ module.exports = {
   "EBIZ": {},
   "GAME": {},
   "IDV": {},
+  "MIL": {},
   "NET": {},
   "ORG": {}
  },
@@ -3357,7 +3368,8 @@ module.exports = {
  "ZONE": {},
  "ZUERICH": {},
  "ZW": {
-  "CO": {}
+  "CO": {},
+  "ORG": {}
  },
  "XN--QXAM": {},
  "XN--QXA6A": {},
