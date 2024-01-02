@@ -1,6 +1,6 @@
 {
  "name": "tlds2",
- "version": "2.2.11",
+ "version": "2.2.12",
  "description": "Comprehensive list of TLDs and subdomain registrars",
  "main": "index.js",
  "scripts": {
