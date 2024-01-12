@@ -18,7 +18,8 @@ const data = [
     { "domain": "xn--w4r85el8fhu5dnra.ch", "error": false },
     { "domain": "xn--w4r85el8fhu5dnra.ch", "error": true },
     { "domain": "xn--w4r85el8fhu5dnra.ch", "error": true },
-    { "domain": "xn--bcher-kva.xn--bouch-fsa.example.com", "error": false }
+    { "domain": "xn--bcher-kva.xn--bouch-fsa.example.com", "error": false },
+    { "domain": "example.com0.0.0.0", "error": true },
 ]
 
 const check = require("../src/checkDomain")
