@@ -144,7 +144,6 @@ module.exports = {
  "AUTHOR": {},
  "AUTO": {},
  "AUTOS": {},
- "AVIANCA": {},
  "AW": {
   "COM": {}
  },
@@ -174,7 +173,6 @@ module.exports = {
  "BABY": {},
  "BAIDU": {},
  "BANAMEX": {},
- "BANANAREPUBLIC": {},
  "BAND": {},
  "BANK": {},
  "BAR": {},
@@ -608,7 +606,6 @@ module.exports = {
   "US": {},
   "ZA": {}
  },
- "COMCAST": {},
  "COMMBANK": {},
  "COMMUNITY": {},
  "COMPANY": {},
@@ -1033,7 +1030,6 @@ module.exports = {
  "GU": {
   "COM": {}
  },
- "GUARDIAN": {},
  "GUCCI": {},
  "GUGE": {},
  "GUIDE": {},
@@ -2202,7 +2198,6 @@ module.exports = {
  "OKINAWA": {},
  "OLAYAN": {},
  "OLAYANGROUP": {},
- "OLDNAVY": {},
  "OLLO": {},
  "OM": {
   "BIZ": {},
@@ -3329,7 +3324,6 @@ module.exports = {
  "WTF": {},
  "XBOX": {},
  "XEROX": {},
- "XFINITY": {},
  "XIHUAN": {},
  "XIN": {},
  "XXX": {},
