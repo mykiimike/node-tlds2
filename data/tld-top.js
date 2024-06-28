@@ -802,7 +802,6 @@ module.exports = [
  "NAB",
  "NAGOYA",
  "NAME",
- "NATURA",
  "NAVY",
  "NBA",
  "NC",

@@ -1923,7 +1923,6 @@ module.exports = {
   "COM": {},
   "EDU": {},
   "INF": {},
-  "NAME": {},
   "NET": {},
   "ORG": {}
  },
@@ -2012,7 +2011,6 @@ module.exports = {
  },
  "MX": {
   "COM": {},
-  "EDU": {},
   "GOB": {},
   "NET": {},
   "ORG": {}
@@ -2044,7 +2042,6 @@ module.exports = {
  "NAB": {},
  "NAGOYA": {},
  "NAME": {},
- "NATURA": {},
  "NAVY": {},
  "NBA": {},
  "NC": {},
@@ -2186,6 +2183,7 @@ module.exports = {
   "CO": {},
   "GEEK": {},
   "GEN": {},
+  "HEALTH": {},
   "IWI": {},
   "KIWI": {},
   "MAORI": {},
@@ -2476,7 +2474,11 @@ module.exports = {
  "POKER": {},
  "POLITIE": {},
  "PORN": {},
- "POST": {},
+ "POST": {
+  "COM": {},
+  "EDU": {},
+  "ORG": {}
+ },
  "PR": {
   "AT": {},
   "BIZ": {},
