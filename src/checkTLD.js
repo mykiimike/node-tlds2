@@ -19,7 +19,12 @@ function checkTLD(fqdn) {
         ret.info  = 'FQDN must be a string';
         return;
     }
-
+    else if (fqdn.length === 0) {
+        ret.error = 'Invalid FQDN';
+        ret.info  = 'FQDN length equal zero';
+        return;
+    }
+    
     const labels = fqdn.split(".");
     var cursor = tldHash;
 
