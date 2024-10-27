@@ -679,7 +679,6 @@ module.exports = {
  "CZ": {
   "CO": {}
  },
- "DABUR": {},
  "DAD": {},
  "DANCE": {},
  "DATA": {},
@@ -2744,7 +2743,6 @@ module.exports = {
  "SH": {},
  "SHANGRILA": {},
  "SHARP": {},
- "SHAW": {},
  "SHELL": {},
  "SHIA": {},
  "SHIKSHA": {},
