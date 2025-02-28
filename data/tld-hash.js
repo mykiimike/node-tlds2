@@ -1673,7 +1673,6 @@ module.exports = {
   "SC": {}
  },
  "KERRYHOTELS": {},
- "KERRYLOGISTICS": {},
  "KERRYPROPERTIES": {},
  "KFH": {},
  "KG": {
@@ -1799,7 +1798,6 @@ module.exports = {
  "LIMO": {},
  "LINCOLN": {},
  "LINK": {},
- "LIPSY": {},
  "LIVE": {},
  "LIVING": {},
  "LK": {
