@@ -21,6 +21,8 @@ module.exports = {
  "AE": {
   "AC": {},
   "CO": {},
+  "GOV": {},
+  "MIL": {},
   "NET": {},
   "ORG": {},
   "SCH": {}
@@ -95,9 +97,7 @@ module.exports = {
  "ANZ": {},
  "AO": {
   "CO": {},
-  "IT": {},
-  "OG": {},
-  "PB": {}
+  "IT": {}
  },
  "AOL": {},
  "APARTMENTS": {},
@@ -206,7 +206,6 @@ module.exports = {
  "BEATS": {},
  "BEAUTY": {},
  "BEER": {},
- "BENTLEY": {},
  "BERLIN": {},
  "BEST": {},
  "BESTBUY": {},
@@ -244,8 +243,7 @@ module.exports = {
   "AUZ": {}
  },
  "BJ": {
-  "COM": {},
-  "EDU": {}
+  "COM": {}
  },
  "BLACK": {},
  "BLACKFRIDAY": {},
@@ -953,7 +951,6 @@ module.exports = {
  "GH": {
   "COM": {},
   "EDU": {},
-  "GOV": {},
   "ORG": {}
  },
  "GI": {
@@ -1754,7 +1751,6 @@ module.exports = {
  "LACAIXA": {},
  "LAMBORGHINI": {},
  "LAMER": {},
- "LANCASTER": {},
  "LAND": {},
  "LANDROVER": {},
  "LANXESS": {},
@@ -2008,12 +2004,13 @@ module.exports = {
  },
  "MX": {
   "COM": {},
-  "GOB": {},
   "NET": {},
   "ORG": {}
  },
  "MY": {
   "COM": {},
+  "EDU": {},
+  "GOV": {},
   "MIL": {},
   "NAME": {},
   "NET": {},
@@ -2494,7 +2491,6 @@ module.exports = {
   "PRO": {},
   "UK": {}
  },
- "PRAMERICA": {},
  "PRAXI": {},
  "PRESS": {},
  "PRIME": {},
@@ -2812,6 +2808,7 @@ module.exports = {
  "SRL": {},
  "SS": {
   "BIZ": {},
+  "CO": {},
   "COM": {},
   "ME": {},
   "NET": {}
